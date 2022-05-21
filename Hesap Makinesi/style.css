@@ -1,0 +1,92 @@
+#main{
+    width:515px;
+    height: 390px;
+    border: 3px inset darkgray;
+    padding: 3px;
+}
+
+#left-side{
+    width: 79%;
+    float:left;
+    margin:0 auto;
+    margin-right: 5px;
+    
+}
+#right-side{
+    width:20%;
+    height: 100%;
+    margin:0 auto;
+    float: right;
+}
+.button-left{
+    width:110px;
+    height: 50px;
+    border: 6px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 500;
+    background-color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+    
+}
+.button-left:hover{
+    background-color: gray;
+}
+.button-right:hover{
+    background-color: gray;
+}
+.area{
+    width:383;
+    height: 50px;
+    padding-left: 5px;
+    border: 6px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 35px;
+    
+}
+.button-right{
+    width:80px;
+    height: 50px;
+    border: 6px solid black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #707070;
+cursor: pointer;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+.border{
+    border: 3px inset darkgray;
+    padding: 3px;
+}
+.mt-5{
+    margin-top:5px;
+}
+.calculator{
+    border:5px solid black;
+    width: 517px;
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
