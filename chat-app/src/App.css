@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.sign-in-button{
+width: 50px;
+font-family: Arial;
+line-height: 50px;
+overflow: hidden;
+background-color:white;
+border:3px solid green;
+border-radius: 10px;
+color:black;
+height: 50px;
+padding: 0;
+transition: 0.6s ease-in-out;
+margin:0 auto;
+cursor: pointer;
+}
+.sign-in-button:hover{
+background-color: yellowgreen;
+color:white;
+border-radius: 20px;
+width: 140px;
+border:3px solid greenyellow
+}
+.google-icon{
+  width:30px;
+  margin-bottom: 6px;
+}
+.login-card{
+  background-color: aquamarine;
+}
